@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+// Build Stamp: 2026-04-16T01:40 (Force Vercel Rebuild)
+
 export const metadata: Metadata = {
   title: "AXON LOGISTICS - Driver App",
   description: "Sistema de gestión de transporte para choferes",
