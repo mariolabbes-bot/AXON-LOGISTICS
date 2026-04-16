@@ -18,7 +18,7 @@ export const sql = neon(process.env.DATABASE_URL);
 export async function checkConnection() {
   try {
     const result = await sql`SELECT NOW() as current_time`;
-    return { success: true, time: result[0].current_time };
+    return { success: true, time: result[0]?.current_time };
   } catch (error: any) {
     console.error('Database connection error:', error.message);
     return { success: false, error: error.message };
