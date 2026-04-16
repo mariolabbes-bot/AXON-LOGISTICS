@@ -1,0 +1,46 @@
+[
+  {
+    "folio": "F-1001",
+    "emission_date": "2024-04-15",
+    "monto_total": 125000,
+    "client": {
+      "rut": "76.123.456-7",
+      "name": "Distribuidora Los Andes",
+      "address": "Av. Libertador 456",
+      "commune": "Santiago"
+    },
+    "items": [
+      {
+        "sku": "SKU-A12",
+        "description": "Caja Aceite Maravilla 12x1L",
+        "quantity": 20,
+        "price": 5000
+      },
+      {
+        "sku": "SKU-B45",
+        "description": "Arroz Grado 1 10kg",
+        "quantity": 50,
+        "price": 1200
+      }
+    ]
+  },
+  {
+    "folio": "F-1002",
+    "emission_date": "2024-04-15",
+    "monto_total": 45000,
+    "client": {
+      "rut": "77.987.654-3",
+      "name": "Almacén Don Tito",
+      "address": "Calle Los Olmos 123",
+      "commune": "Providencia"
+    },
+    "items": [
+      {
+        "sku": "SKU-A12",
+        "description": "Caja Aceite Maravilla 12x1L",
+        "quantity": 5,
+        "price": 5500
+      }
+    ]
+  }
+]
