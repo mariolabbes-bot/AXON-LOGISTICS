@@ -58,8 +58,9 @@ export default function DriverDashboard() {
   if (!isLoaded) return null;
 
   return (
-    <div className={`min-h-screen transition-colors duration-500 ${highContrast ? 'high-contrast' : ''} bg-[var(--background)] text-[var(--foreground)] font-sans max-w-md mx-auto shadow-2xl relative`}>
-      
+    <div 
+      className={`min-h-screen transition-colors duration-500 ${highContrast ? 'high-contrast' : ''} bg-[var(--background)] text-[var(--foreground)] font-sans max-w-md mx-auto shadow-2xl relative`}
+    >
       {/* Header Premium (Basado en AXON CRM theme) */}
       <header className={`px-6 py-8 rounded-b-[2.5rem] shadow-xl border-b transition-all duration-300 ${highContrast ? 'bg-white border-slate-200' : 'bg-slate-900/60 backdrop-blur-xl border-white/5'}`}>
         <div className="flex justify-between items-center mb-6">
