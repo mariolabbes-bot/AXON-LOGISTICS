@@ -8,9 +8,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 3001;
 
-// Configuración de Neon
-const sql = neon(process.env.DATABASE_URL!);
-
+// Middleware
 app.use(cors());
 app.use(express.json());
 
